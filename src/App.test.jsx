@@ -10,3 +10,8 @@ test('renders title and increments count', () => {
 
   expect(screen.getByTestId('count')).toHaveTextContent('count is 1')
 })
+
+test('renders title', () => {
+  render(<App />)
+  expect(screen.getByTestId('title')).toHaveTextContent('React Test Demo')
+})
