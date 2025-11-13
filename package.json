@@ -10,7 +10,10 @@
     "preview": "vite preview",
     "test": "vitest run"
   },
-  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
   "dependencies": {
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
@@ -25,6 +28,7 @@
     "eslint": "^9.39.1",
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-react-refresh": "^0.4.24",
+    "eslint-plugin-vitest": "^0.5.4",
     "globals": "^16.5.0",
     "jsdom": "^27.0.1",
     "vite": "^7.2.2",
