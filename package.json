@@ -10,6 +10,7 @@
     "preview": "vite preview",
     "test": "vitest run"
   },
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
   "dependencies": {
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
